@@ -1,8 +1,15 @@
 /* your code */
 tr:nth-child(even) {
-  background-color: #D6EEEE;
+  background-color: lightgrey;
 }
 thead{
+	text-align:left;
 	background:purple;
 	color:white;
+}
+table{
+	border-collapse:collapse;
+	width:90%;
+	border:1px solid lightgrey;
+	border-radius:10px;
 }
